@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #AEB6BF;
+}
+
+header{
+    background-color: #212F3D;
+    color: #808B96;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    text-align: center;
+}
+nav{
+    background-color: #2C3E50;
+    padding: 10px;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: #AAB7B8;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+a:hover{
+    color: #D5D8DC;
+    font-weight:600;
+    box-shadow: 1px 1px 1px 1px #AAB7B8;
+    border-radius: 5px;
+    transition: 0.1s;
+}
+
+.contenedor{
+    display: flex;
+    gap: 10px;
+}
+
+.imagen{
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.presentacion{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 10px;
+    background-color: aqua;
+    
+}
