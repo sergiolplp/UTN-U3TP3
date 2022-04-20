@@ -29,7 +29,7 @@ a:link, a:visited, a:active {
 a:hover{
     color: #D5D8DC;
     font-weight:600;
-    box-shadow: 1px 1px 1px 1px #AAB7B8;
+    box-shadow: 0px 1px 2px 2px #AAB7B8;
     border-radius: 5px;
     transition: 0.1s;
 }
@@ -59,16 +59,14 @@ margin: 100px;
 
 h1{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-
-    
+    font-size: 30px;    
 }
+
 p{
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
     font-size: 19px;
     line-height: 40px;
-    
 }
 
 footer{

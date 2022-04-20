@@ -29,12 +29,36 @@ a:link, a:visited, a:active {
 a:hover{
     color: #D5D8DC;
     font-weight:600;
-    box-shadow: 1px 1px 1px 1px #AAB7B8;
+    box-shadow: 0px 1px 2px 2px #AAB7B8;
     border-radius: 5px;
     transition: 0.1s;
 }
 
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 30px;
+}
 
+.contenedor_principal{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor_secundario{
+    width: 40%;
+}
+
+.experiencia{
+    background-color: #2C3E50;
+    color: #AAB7B8;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    padding: 40px;
+    margin: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
 
 
 
