@@ -1,87 +1,95 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
-body{
+
+body {
+    height: 100%;
+    width: 100%;
     background-color: #AEB6BF;
 }
 
-header{
+header {
     background-color: #212F3D;
     color: #808B96;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10px;
     text-align: center;
 }
-nav{
+
+nav {
     background-color: #2C3E50;
     padding: 10px;
 }
 
-a:link, a:visited, a:active {
-    text-decoration:none;
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
     color: #AAB7B8;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
 
-a:hover{
+a:hover {
     color: #D5D8DC;
-    font-weight:600;
+    font-weight: 600;
     box-shadow: 0px 1px 2px 2px #AAB7B8;
     border-radius: 5px;
     transition: 0.1s;
 }
 
-h1{
+h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
-    padding: 30px; 
+    padding: 30px;
 }
 
-.formulario{
-    display:flex;
+.formulario {
+    display: flex;
     flex-direction: column;
     align-self: center;
 
 }
 
-.placeholder{
-    margin: 10px;
+.placeholder {
+    margin: 5px auto;
     background-color: #2C3E50;
     color: #AAB7B8;
     border-radius: 10px;
-    text-align: center; /* No supe resolver */
+    text-align: center;
     width: 40%;
-    margin-left: 300px;
+    /* margin-left: 300px; */
     padding: 20px;
     border-color: #212F3D;
-    
+
 }
 
-.button{    
+.button {
+    margin: 5px auto;
     width: 10%;
-    margin-left: 530px; /* No supe resolver */
+    /* margin-left: 530px; No supe resolver */
     background-color: #2C3E50;
     border-radius: 10px;
-    color: #AAB7B8; 
+    color: #AAB7B8;
     padding: 20px;
     border-color: #212F3D;
+    box-sizing: content-box;
 }
 
-.button:hover{
+.button:hover {
     color: #D5D8DC;
     box-shadow: 0px 1px 2px 2px #AAB7B8;
     transition: 0.1s;
 }
 
-footer{
+footer {
     background-color: #212F3D;
     color: #808B96;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10px;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     width: 100%;
     text-align: center;

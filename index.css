@@ -1,80 +1,89 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
-body{
+
+body {
     background-color: #AEB6BF;
 }
 
-header{
+header {
     background-color: #212F3D;
     color: #808B96;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10px;
     text-align: center;
 }
-nav{
+
+nav {
     background-color: #2C3E50;
     padding: 10px;
 }
 
-a:link, a:visited, a:active {
-    text-decoration:none;
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
     color: #AAB7B8;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
 
-a:hover{
+a:hover {
     color: #D5D8DC;
-    font-weight:600;
+    font-weight: 600;
     box-shadow: 0px 1px 2px 2px #AAB7B8;
     border-radius: 5px;
     transition: 0.1s;
 }
 
-.contenedor{
+.contenedor {
     display: flex;
     gap: 10px;
-    margin: auto;
-    padding: auto;
+    height: 500px;
+    align-items: center;
 }
 
-.imagen{
-    margin: 50px;
+@media only screen and (max-width : 900px) {
+    .contenedor {
+        flex-direction: column;
+    }
 }
 
-img{
+.imagen {
+    padding: 50px;
+}
+
+img {
     border-radius: 10px;
     max-width: 300px;
     max-height: 300px;
     box-shadow: 7px 0px 7px #2C3E50;
-    margin-top: 50px;
 }
 
-.presentacion{
-margin: 100px;
+.presentacion {
+    padding: 30px;
 }
 
-h1{
+h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;    
+    font-size: 30px;
 }
 
-p{
+p {
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
     font-size: 19px;
     line-height: 40px;
 }
 
-footer{
+footer {
     background-color: #212F3D;
     color: #808B96;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10px;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     width: 100%;
     text-align: center;
